@@ -1,0 +1,7 @@
+com/productapp/utils/ReusableSpecifications.class
+com/productapp/cucumber/serenity/ProductSerenitySteps.class
+com/productapp/testbase/TestBase.class
+com/productapp/utils/TestUtils.class
+com/productapp/junit/productinfo/FirstSerenityTest.class
+com/productapp/cucumber/steps/ProductSteps.class
+com/productapp/junit/productinfo/ProductsCRUDTest.class

@@ -1,0 +1,8 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Products CRUD test","Create a new product with name and price returns 200 status code instead of 201 which is a defect","FAILURE","2019-11-13T21:39:07.514Z[Europe/London]","0.0","5.92"
+"Products CRUD test","Create a new product with name and zero price which is a defect! ","FAILURE","2019-11-13T21:39:13.872Z[Europe/London]","0.0","0.39"
+"Products CRUD test","Create a new product without name and some price which is a defect!","FAILURE","2019-11-13T21:39:14.269Z[Europe/London]","0.0","0.35"
+"Products CRUD test","Product creates again with with same name and price  which is a defect","FAILURE","2019-11-13T21:39:14.63Z[Europe/London]","0.0","0.42"
+"Products CRUD test","Verify if the product was added to the application","SUCCESS","2019-11-13T21:39:15.057Z[Europe/London]","0.0","0.72"
+"Products CRUD test","Update the product name and verify the updated information!","FAILURE","2019-11-13T21:39:15.778Z[Europe/London]","0.0","0.29"
+"Products CRUD test","Delete the student and verify if the student is deleted!","SUCCESS","2019-11-13T21:39:16.187Z[Europe/London]","0.0","0.6"

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="5" name="com.productapp.junit.productinfo.ProductsCRUDTest" skipped="0" tests="7" time="8.68" timestamp="2019-11-13 09:39:07"><testcase classname="com.productapp.junit.productinfo.ProductsCRUDTest" name="Create a new product with name and price returns 200 status code instead of 201 which is a defect"><failure message="1 expectation failed.&#10;Expected status code &lt;201&gt; but was &lt;200&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
+Expected status code &lt;201&gt; but was &lt;200&gt;.
+</failure><system-err>1 expectation failed.
+Expected status code &lt;201&gt; but was &lt;200&gt;.
+
+io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:643)
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:122)
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:130)
+io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)
+com.productapp.junit.productinfo.ProductsCRUDTest.test001(ProductsCRUDTest.java:40)
+</system-err></testcase><testcase classname="com.productapp.junit.productinfo.ProductsCRUDTest" name="Create a new product with name and zero price which is a defect! "><failure message="1 expectation failed.&#10;Expected status code &lt;201&gt; but was &lt;200&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
+Expected status code &lt;201&gt; but was &lt;200&gt;.
+</failure><system-err>1 expectation failed.
+Expected status code &lt;201&gt; but was &lt;200&gt;.
+
+io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:643)
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:122)
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:130)
+io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)
+com.productapp.junit.productinfo.ProductsCRUDTest.test002(ProductsCRUDTest.java:49)
+</system-err></testcase><testcase classname="com.productapp.junit.productinfo.ProductsCRUDTest" name="Create a new product without name and some price which is a defect!"><failure message="1 expectation failed.&#10;Expected status code &lt;201&gt; but was &lt;200&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
+Expected status code &lt;201&gt; but was &lt;200&gt;.
+</failure><system-err>1 expectation failed.
+Expected status code &lt;201&gt; but was &lt;200&gt;.
+
+io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:643)
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:122)
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:130)
+io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)
+com.productapp.junit.productinfo.ProductsCRUDTest.test003(ProductsCRUDTest.java:57)
+</system-err></testcase><testcase classname="com.productapp.junit.productinfo.ProductsCRUDTest" name="Product creates again with with same name and price  which is a defect"><failure message="1 expectation failed.&#10;Expected status code &lt;201&gt; but was &lt;200&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
+Expected status code &lt;201&gt; but was &lt;200&gt;.
+</failure><system-err>1 expectation failed.
+Expected status code &lt;201&gt; but was &lt;200&gt;.
+
+io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:643)
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:122)
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:130)
+io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)
+com.productapp.junit.productinfo.ProductsCRUDTest.test004(ProductsCRUDTest.java:65)
+</system-err></testcase><testcase classname="com.productapp.junit.productinfo.ProductsCRUDTest" name="Verify if the product was added to the application"/><testcase classname="com.productapp.junit.productinfo.ProductsCRUDTest" name="Update the product name and verify the updated information!"><failure message="1 expectation failed.&#10;Expected status code &lt;204&gt; but was &lt;200&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
+Expected status code &lt;204&gt; but was &lt;200&gt;.
+</failure><system-err>1 expectation failed.
+Expected status code &lt;204&gt; but was &lt;200&gt;.
+
+io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:643)
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:122)
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:130)
+io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)
+com.productapp.cucumber.serenity.ProductSerenitySteps.updateProductName(ProductSerenitySteps.java:104)
+com.productapp.junit.productinfo.ProductsCRUDTest.test006(ProductsCRUDTest.java:86)
+</system-err></testcase><testcase classname="com.productapp.junit.productinfo.ProductsCRUDTest" name="Delete the student and verify if the student is deleted!"/></testsuite>
