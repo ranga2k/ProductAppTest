@@ -1,3 +1,3 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
-"Products CRUD test","Verify if the product was added to the application","SUCCESS","2019-11-13T21:39:15.057Z[Europe/London]","0.0","0.72"
-"Products CRUD test","Delete the student and verify if the student is deleted!","SUCCESS","2019-11-13T21:39:16.187Z[Europe/London]","0.0","0.6"
+"Products CRUD test","Verify if the product was added to the application","SUCCESS","2019-11-13T22:30:02.878Z[Europe/London]","0.0","0.79"
+"Products CRUD test","Delete the student and verify if the student is deleted!","SUCCESS","2019-11-13T22:30:04.104Z[Europe/London]","0.0","0.4"
