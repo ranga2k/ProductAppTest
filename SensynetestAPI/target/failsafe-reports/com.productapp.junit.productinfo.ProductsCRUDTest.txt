@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: com.productapp.junit.productinfo.ProductsCRUDTest
 -------------------------------------------------------------------------------
-Tests run: 7, Failures: 5, Errors: 0, Skipped: 0, Time elapsed: 12.447 sec <<< FAILURE! - in com.productapp.junit.productinfo.ProductsCRUDTest
-test001(com.productapp.junit.productinfo.ProductsCRUDTest)  Time elapsed: 5.955 sec  <<< FAILURE!
+Tests run: 7, Failures: 5, Errors: 0, Skipped: 0, Time elapsed: 11.599 sec <<< FAILURE! - in com.productapp.junit.productinfo.ProductsCRUDTest
+test001(com.productapp.junit.productinfo.ProductsCRUDTest)  Time elapsed: 5.07 sec  <<< FAILURE!
 java.lang.AssertionError: 1 expectation failed.
 Expected status code <201> but was <200>.
 
@@ -38,9 +38,9 @@ Expected status code <201> but was <200>.
 	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:166)
 	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:130)
 	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)
-	at com.productapp.junit.productinfo.ProductsCRUDTest.test001(ProductsCRUDTest.java:40)
+	at com.productapp.junit.productinfo.ProductsCRUDTest.test001(ProductsCRUDTest.java:36)
 
-test002(com.productapp.junit.productinfo.ProductsCRUDTest)  Time elapsed: 0.382 sec  <<< FAILURE!
+test002(com.productapp.junit.productinfo.ProductsCRUDTest)  Time elapsed: 0.322 sec  <<< FAILURE!
 java.lang.AssertionError: 1 expectation failed.
 Expected status code <201> but was <200>.
 
@@ -66,9 +66,9 @@ Expected status code <201> but was <200>.
 	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
 	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:130)
 	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)
-	at com.productapp.junit.productinfo.ProductsCRUDTest.test002(ProductsCRUDTest.java:49)
+	at com.productapp.junit.productinfo.ProductsCRUDTest.test002(ProductsCRUDTest.java:45)
 
-test003(com.productapp.junit.productinfo.ProductsCRUDTest)  Time elapsed: 0.347 sec  <<< FAILURE!
+test003(com.productapp.junit.productinfo.ProductsCRUDTest)  Time elapsed: 0.297 sec  <<< FAILURE!
 java.lang.AssertionError: 1 expectation failed.
 Expected status code <201> but was <200>.
 
@@ -94,9 +94,9 @@ Expected status code <201> but was <200>.
 	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
 	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:130)
 	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)
-	at com.productapp.junit.productinfo.ProductsCRUDTest.test003(ProductsCRUDTest.java:57)
+	at com.productapp.junit.productinfo.ProductsCRUDTest.test003(ProductsCRUDTest.java:53)
 
-test004(com.productapp.junit.productinfo.ProductsCRUDTest)  Time elapsed: 0.416 sec  <<< FAILURE!
+test004(com.productapp.junit.productinfo.ProductsCRUDTest)  Time elapsed: 0.315 sec  <<< FAILURE!
 java.lang.AssertionError: 1 expectation failed.
 Expected status code <201> but was <200>.
 
@@ -122,9 +122,9 @@ Expected status code <201> but was <200>.
 	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
 	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:130)
 	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)
-	at com.productapp.junit.productinfo.ProductsCRUDTest.test004(ProductsCRUDTest.java:65)
+	at com.productapp.junit.productinfo.ProductsCRUDTest.test004(ProductsCRUDTest.java:61)
 
-test006(com.productapp.junit.productinfo.ProductsCRUDTest)  Time elapsed: 0.285 sec  <<< FAILURE!
+test006(com.productapp.junit.productinfo.ProductsCRUDTest)  Time elapsed: 0.343 sec  <<< FAILURE!
 java.lang.AssertionError: 1 expectation failed.
 Expected status code <204> but was <200>.
 
@@ -133,5 +133,5 @@ Expected status code <204> but was <200>.
 	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:130)
 	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)
 	at com.productapp.cucumber.serenity.ProductSerenitySteps.updateProductName(ProductSerenitySteps.java:104)
-	at com.productapp.junit.productinfo.ProductsCRUDTest.test006(ProductsCRUDTest.java:86)
+	at com.productapp.junit.productinfo.ProductsCRUDTest.test006(ProductsCRUDTest.java:82)
 

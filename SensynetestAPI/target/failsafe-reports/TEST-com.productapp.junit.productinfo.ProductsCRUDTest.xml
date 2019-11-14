@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.productapp.junit.productinfo.ProductsCRUDTest" time="8.706" tests="7" errors="0" skipped="0" failures="5">
+<testsuite name="com.productapp.junit.productinfo.ProductsCRUDTest" time="7.58" tests="7" errors="0" skipped="0" failures="5">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib"/>
     <property name="java.vm.version" value="25.60-b23"/>
     <property name="gopherProxySet" value="false"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
-    <property name="maven.multiModuleProjectDirectory" value="/Users/tmbadmin/Documents/MockTest/SensynetestAPI"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/tmbadmin/git/ProductAppTest/SensynetestAPI"/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
     <property name="path.separator" value=":"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.os.patch.level" value="unknown"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="/Users/tmbadmin/Documents/MockTest/SensynetestAPI"/>
+    <property name="user.dir" value="/Users/tmbadmin/git/ProductAppTest/SensynetestAPI"/>
     <property name="java.runtime.version" value="1.8.0_60-b27"/>
     <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
     <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/endorsed"/>
@@ -25,7 +25,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="os.name" value="Mac OS X"/>
-    <property name="classworlds.conf" value="/Users/tmbadmin/Documents/MockTest/.metadata/.plugins/org.eclipse.m2e.launching/launches/m2conf8382397903429534330.tmp"/>
+    <property name="classworlds.conf" value="/Users/tmbadmin/Documents/MockTest/.metadata/.plugins/org.eclipse.m2e.launching/launches/m2conf2238338241188248147.tmp"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
     <property name="java.library.path" value="/Users/tmbadmin/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
@@ -52,7 +52,7 @@
     <property name="java.ext.dirs" value="/Users/tmbadmin/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
     <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/classes"/>
     <property name="java.vendor" value="Oracle Corporation"/>
-    <property name="maven.home" value="/Users/tmbadmin/Documents/MockTest/SensynetestAPI/EMBEDDED"/>
+    <property name="maven.home" value="/Users/tmbadmin/git/ProductAppTest/SensynetestAPI/EMBEDDED"/>
     <property name="file.separator" value="/"/>
     <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -61,7 +61,7 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="test001" classname="com.productapp.junit.productinfo.ProductsCRUDTest" time="5.955">
+  <testcase name="test001" classname="com.productapp.junit.productinfo.ProductsCRUDTest" time="5.07">
     <failure message="1 expectation failed.&#10;Expected status code &lt;201&gt; but was &lt;200&gt;.&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 1 expectation failed.
 Expected status code <201> but was <200>.
 
@@ -97,7 +97,7 @@ Expected status code <201> but was <200>.
 	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:166)
 	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:130)
 	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)
-	at com.productapp.junit.productinfo.ProductsCRUDTest.test001(ProductsCRUDTest.java:40)
+	at com.productapp.junit.productinfo.ProductsCRUDTest.test001(ProductsCRUDTest.java:36)
 ]]></failure>
     <system-err><![CDATA[347 [main] INFO net.thucydides.core.steps.ConsoleLoggingListener - &amp#27;[36m
 
@@ -116,8 +116,8 @@ Expected status code <201> but was <200>.
  Learn Serenity BDD online at http://serenity-dojo.com                               
 -------------------------------------------------------------------------------------
 &amp#27;[0m
-1018 [main] INFO net.thucydides.core.steps.ConsoleLoggingListener - Test Suite Started: Products CRUD test
-1661 [main] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
+999 [main] INFO net.thucydides.core.steps.ConsoleLoggingListener - Test Suite Started: Products CRUD test
+1569 [main] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
  _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
 |_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
   | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
@@ -127,10 +127,10 @@ Expected status code <201> but was <200>.
 
 TEST STARTED: test001
 -------------------------------------------------------------------
-1661 [main] INFO net.serenitybdd.core.Serenity - TEST NUMBER: 1
+1569 [main] INFO net.serenitybdd.core.Serenity - TEST NUMBER: 1
 ]]></system-err>
   </testcase>
-  <testcase name="test002" classname="com.productapp.junit.productinfo.ProductsCRUDTest" time="0.382">
+  <testcase name="test002" classname="com.productapp.junit.productinfo.ProductsCRUDTest" time="0.322">
     <failure message="1 expectation failed.&#10;Expected status code &lt;201&gt; but was &lt;200&gt;.&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 1 expectation failed.
 Expected status code <201> but was <200>.
 
@@ -156,9 +156,9 @@ Expected status code <201> but was <200>.
 	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
 	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:130)
 	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)
-	at com.productapp.junit.productinfo.ProductsCRUDTest.test002(ProductsCRUDTest.java:49)
+	at com.productapp.junit.productinfo.ProductsCRUDTest.test002(ProductsCRUDTest.java:45)
 ]]></failure>
-    <system-err><![CDATA[7416 [main] ERROR net.thucydides.core.steps.ConsoleLoggingListener - 
+    <system-err><![CDATA[6468 [main] ERROR net.thucydides.core.steps.ConsoleLoggingListener - 
            __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
   _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
  (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
@@ -168,8 +168,8 @@ Expected status code <201> but was <200>.
 
 TEST FAILED: Create a new product with name and price returns 200 status code instead of 201 which is a defect
 --------------------------------------------------------------------------
-7421 [main] ERROR net.thucydides.core.steps.ConsoleLoggingListener - 1 expectation failed.Expected status code <201> but was <200>.
-7748 [main] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
+6472 [main] ERROR net.thucydides.core.steps.ConsoleLoggingListener - 1 expectation failed.Expected status code <201> but was <200>.
+6731 [main] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
  _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
 |_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
   | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
@@ -179,10 +179,10 @@ TEST FAILED: Create a new product with name and price returns 200 status code in
 
 TEST STARTED: test002
 -------------------------------------------------------------------
-7748 [main] INFO net.serenitybdd.core.Serenity - TEST NUMBER: 2
+6731 [main] INFO net.serenitybdd.core.Serenity - TEST NUMBER: 2
 ]]></system-err>
   </testcase>
-  <testcase name="test003" classname="com.productapp.junit.productinfo.ProductsCRUDTest" time="0.347">
+  <testcase name="test003" classname="com.productapp.junit.productinfo.ProductsCRUDTest" time="0.297">
     <failure message="1 expectation failed.&#10;Expected status code &lt;201&gt; but was &lt;200&gt;.&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 1 expectation failed.
 Expected status code <201> but was <200>.
 
@@ -208,9 +208,9 @@ Expected status code <201> but was <200>.
 	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
 	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:130)
 	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)
-	at com.productapp.junit.productinfo.ProductsCRUDTest.test003(ProductsCRUDTest.java:57)
+	at com.productapp.junit.productinfo.ProductsCRUDTest.test003(ProductsCRUDTest.java:53)
 ]]></failure>
-    <system-err><![CDATA[7815 [main] ERROR net.thucydides.core.steps.ConsoleLoggingListener - 
+    <system-err><![CDATA[6809 [main] ERROR net.thucydides.core.steps.ConsoleLoggingListener - 
            __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
   _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
  (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
@@ -220,8 +220,8 @@ Expected status code <201> but was <200>.
 
 TEST FAILED: Create a new product with name and zero price which is a defect! 
 --------------------------------------------------------------------------
-7815 [main] ERROR net.thucydides.core.steps.ConsoleLoggingListener - 1 expectation failed.Expected status code <201> but was <200>.
-8119 [main] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
+6810 [main] ERROR net.thucydides.core.steps.ConsoleLoggingListener - 1 expectation failed.Expected status code <201> but was <200>.
+7065 [main] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
  _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
 |_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
   | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
@@ -231,10 +231,10 @@ TEST FAILED: Create a new product with name and zero price which is a defect!
 
 TEST STARTED: test003
 -------------------------------------------------------------------
-8119 [main] INFO net.serenitybdd.core.Serenity - TEST NUMBER: 3
+7065 [main] INFO net.serenitybdd.core.Serenity - TEST NUMBER: 3
 ]]></system-err>
   </testcase>
-  <testcase name="test004" classname="com.productapp.junit.productinfo.ProductsCRUDTest" time="0.416">
+  <testcase name="test004" classname="com.productapp.junit.productinfo.ProductsCRUDTest" time="0.315">
     <failure message="1 expectation failed.&#10;Expected status code &lt;201&gt; but was &lt;200&gt;.&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 1 expectation failed.
 Expected status code <201> but was <200>.
 
@@ -260,9 +260,9 @@ Expected status code <201> but was <200>.
 	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
 	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:130)
 	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)
-	at com.productapp.junit.productinfo.ProductsCRUDTest.test004(ProductsCRUDTest.java:65)
+	at com.productapp.junit.productinfo.ProductsCRUDTest.test004(ProductsCRUDTest.java:61)
 ]]></failure>
-    <system-err><![CDATA[8178 [main] ERROR net.thucydides.core.steps.ConsoleLoggingListener - 
+    <system-err><![CDATA[7118 [main] ERROR net.thucydides.core.steps.ConsoleLoggingListener - 
            __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
   _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
  (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
@@ -272,8 +272,8 @@ Expected status code <201> but was <200>.
 
 TEST FAILED: Create a new product without name and some price which is a defect!
 --------------------------------------------------------------------------
-8180 [main] ERROR net.thucydides.core.steps.ConsoleLoggingListener - 1 expectation failed.Expected status code <201> but was <200>.
-8556 [main] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
+7120 [main] ERROR net.thucydides.core.steps.ConsoleLoggingListener - 1 expectation failed.Expected status code <201> but was <200>.
+7414 [main] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
  _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
 |_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
   | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
@@ -283,11 +283,11 @@ TEST FAILED: Create a new product without name and some price which is a defect!
 
 TEST STARTED: test004
 -------------------------------------------------------------------
-8557 [main] INFO net.serenitybdd.core.Serenity - TEST NUMBER: 4
+7414 [main] INFO net.serenitybdd.core.Serenity - TEST NUMBER: 4
 ]]></system-err>
   </testcase>
-  <testcase name="test005" classname="com.productapp.junit.productinfo.ProductsCRUDTest" time="0.718"/>
-  <testcase name="test006" classname="com.productapp.junit.productinfo.ProductsCRUDTest" time="0.285">
+  <testcase name="test005" classname="com.productapp.junit.productinfo.ProductsCRUDTest" time="0.807"/>
+  <testcase name="test006" classname="com.productapp.junit.productinfo.ProductsCRUDTest" time="0.343">
     <failure message="1 expectation failed.&#10;Expected status code &lt;204&gt; but was &lt;200&gt;.&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 1 expectation failed.
 Expected status code <204> but was <200>.
 
@@ -296,9 +296,9 @@ Expected status code <204> but was <200>.
 	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:130)
 	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)
 	at com.productapp.cucumber.serenity.ProductSerenitySteps.updateProductName(ProductSerenitySteps.java:104)
-	at com.productapp.junit.productinfo.ProductsCRUDTest.test006(ProductsCRUDTest.java:86)
+	at com.productapp.junit.productinfo.ProductsCRUDTest.test006(ProductsCRUDTest.java:82)
 ]]></failure>
-    <system-err><![CDATA[9331 [main] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
+    <system-err><![CDATA[8282 [main] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
         __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
   _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
  (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
@@ -308,7 +308,7 @@ Expected status code <204> but was <200>.
 
 TEST PASSED: Verify if the product was added to the application
 ----------------------------------------------------------------------------
-9517 [main] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
+8505 [main] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
  _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
 |_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
   | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
@@ -318,8 +318,8 @@ TEST PASSED: Verify if the product was added to the application
 
 TEST STARTED: test006
 -------------------------------------------------------------------
-9517 [main] INFO net.serenitybdd.core.Serenity - TEST NUMBER: 6
+8505 [main] INFO net.serenitybdd.core.Serenity - TEST NUMBER: 6
 ]]></system-err>
   </testcase>
-  <testcase name="test007" classname="com.productapp.junit.productinfo.ProductsCRUDTest" time="0.603"/>
+  <testcase name="test007" classname="com.productapp.junit.productinfo.ProductsCRUDTest" time="0.426"/>
 </testsuite>
